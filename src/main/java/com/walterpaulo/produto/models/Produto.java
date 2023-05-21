@@ -2,15 +2,11 @@ package com.walterpaulo.produto.models;
 
 import java.math.BigDecimal;
 
-import org.springframework.lang.NonNull;
-import org.springframework.validation.annotation.Validated;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 @Entity(name = "produto")
